@@ -91,6 +91,39 @@ Projects
 }
 
 /*
+Background
+*/
+
+#background {
+  border-bottom: 1px solid #6c6d79;
+  padding: 30px 0;
+}
+
+.background-header {
+  font-size: 1em;
+  padding: 10px 0 5px;
+  color: white;
+  border-bottom: 2px dotted #fff;
+}
+
+#background p,
+#background ul li,
+#background ol li {
+  color: white;
+}
+
+.soft {
+  background-color: #8c8282;
+}
+
+.lang {
+  background-color: #b2b2a4;
+}
+
+.hobbies {
+  background-color: #5b4650;
+}
+/*
 Text
 */
 

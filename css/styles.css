@@ -9,7 +9,7 @@ Navigation
 Header/Banner
 */
 .jumbotron {
-  min-height: 350px;
+  min-height: 400px;
   background:
     linear-gradient(#5b4650, transparent 90%),
     linear-gradient(0deg, #fff, transparent 90%),
@@ -28,4 +28,21 @@ Brand Messaging
   font-family: 'Satisfy', cursive;
   border-top: 1px solid #6c6d79;
   border-bottom: 1px solid #6c6d79;
+}
+
+/*
+About Me
+*/
+#about {
+  border-bottom: 1px solid #6c6d79;
+  padding: 30px 0;
+}
+
+/*
+Text
+*/
+.section-heading {
+  font-family: 'Patua One', cursive;
+  font-size: 1.75em;
+  color: #8c8282;
 }

@@ -1,6 +1,7 @@
 /*
 Navigation
 */
+
 .navbar {
   background-color: #5b4650;
 }
@@ -8,19 +9,18 @@ Navigation
 /*
 Header/Banner
 */
+
 .jumbotron {
   min-height: 400px;
-  background:
-    linear-gradient(#5b4650, transparent 90%),
-    linear-gradient(0deg, #fff, transparent 90%),
-    url('https://farm8.staticflickr.com/7567/16302282446_8268da7ee4_z.jpg') no-repeat center center;
-    background-size: cover;
-    border-radius: 0;
+  background: linear-gradient(#5b4650, transparent 90%), linear-gradient(0deg, #fff, transparent 90%), url('https://farm8.staticflickr.com/7567/16302282446_8268da7ee4_z.jpg') no-repeat center center;
+  background-size: cover;
+  border-radius: 0;
 }
 
 /*
 Brand Messaging
 */
+
 .quote {
   color: #69636b;
   margin: 20px 0 30px;
@@ -33,14 +33,67 @@ Brand Messaging
 /*
 About Me
 */
+
 #about {
   border-bottom: 1px solid #6c6d79;
   padding: 30px 0;
 }
 
 /*
+Projects
+*/
+
+#projects {
+  border-bottom: 1px solid #6c6d79;
+  padding: 30px 0;
+}
+
+#projimgs li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  transition: all .6s ease-in;
+}
+
+#projimgs li a {
+  text-decoration: none;
+}
+
+#projimgs li:hover {
+  transform: scale(1.07);
+}
+
+#projimgs li h3 {
+  font-size: 1.5em;
+  padding-top: 10px;
+  color: white;
+}
+
+#projimgs li p {
+  color: white;
+  padding: 0 5px;
+}
+
+#projimgs li.globe {
+  background-color: #2a272a;
+}
+
+#projimgs li.cookie {
+  background-color: #474741;
+}
+
+#projimgs li.pet {
+  background-color: #362a30;
+}
+
+#projimgs li.jet {
+  background-color: #544e4e;
+}
+
+/*
 Text
 */
+
 .section-heading {
   font-family: 'Patua One', cursive;
   font-size: 1.75em;

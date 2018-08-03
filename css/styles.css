@@ -9,11 +9,23 @@ Navigation
 Header/Banner
 */
 .jumbotron {
-  min-height: 600px;
+  min-height: 350px;
   background:
     linear-gradient(#5b4650, transparent 90%),
     linear-gradient(0deg, #fff, transparent 90%),
     url('https://farm8.staticflickr.com/7567/16302282446_8268da7ee4_z.jpg') no-repeat center center;
     background-size: cover;
     border-radius: 0;
+}
+
+/*
+Brand Messaging
+*/
+.quote {
+  color: #69636b;
+  margin: 20px 0 30px;
+  padding: 30px 0;
+  font-family: 'Satisfy', cursive;
+  border-top: 1px solid #6c6d79;
+  border-bottom: 1px solid #6c6d79;
 }

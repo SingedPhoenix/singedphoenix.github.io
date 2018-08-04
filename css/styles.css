@@ -105,12 +105,12 @@ Background
   border-bottom: 2px dotted #fff;
 }
 
-.background-intro {
-  color: black;
-}
-
 #background p, #background ul li, #background ol li {
   color: white;
+}
+
+.background-intro {
+  color: #000 !important;
 }
 
 .soft {

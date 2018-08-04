@@ -105,13 +105,11 @@ Background
   border-bottom: 2px dotted #fff;
 }
 
-.background-intro{
+.background-intro {
   color: black;
 }
 
-#background p,
-#background ul li,
-#background ol li {
+#background p, #background ul li, #background ol li {
   color: white;
 }
 
@@ -126,6 +124,7 @@ Background
 .hobbies {
   background-color: #5b4650;
 }
+
 /*
 Text
 */
@@ -140,6 +139,7 @@ Text
 /*
 Footer
 */
+
 footer {
   background-color: #5b4650;
 }
